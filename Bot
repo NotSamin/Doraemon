@@ -1,0 +1,26 @@
+const Discord = require("discord.js");
+
+const client = new Discord.Client();
+
+const TOKEN = "MTAxNDU3MTMyNjU5MTIwNTQ2Nw.G7mnDb.NblTzbUcBSyDqzpftPBDs8TuyOnM_8RwdNe_3I";
+
+client.on("message", message => {
+
+  if (message.content === "Hello Discord Bot") {
+
+    message.channel.send("Hi There!");
+
+  }
+
+  {
+
+    console.log("Bot Is Ready!");
+
+  }
+
+});
+
+client.login(MTAxNDU3MTMyNjU5MTIwNTQ2Nw.G7mnDb.NblTzbUcBSyDqzpftPBDs8TuyOnM_8RwdNe_3I)
+
+
+
